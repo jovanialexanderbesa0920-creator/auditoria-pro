@@ -78,13 +78,13 @@ function App() {
                <h1 className="text-xl font-black tracking-tight italic">
                  Auditoría <span className="text-red-600 italic">Pro</span>
                </h1>
-               <p className="text-[9px] text-slate-500 uppercase font-black tracking-tighter italic">Planta Central</p>
+               <p className="text-[9px] text-slate-500 uppercase font-black tracking-tighter italic">Sede Central</p>
              </div>
           </div>
 
           {/* Navigation */}
           <nav className="space-y-1 flex-1">
-            <p className="text-[9px] font-black text-slate-600 uppercase tracking-widest px-4 mb-4 opacity-30">Módulo de Planta</p>
+            <p className="text-[9px] font-black text-slate-600 uppercase tracking-widest px-4 mb-4 opacity-30">Módulo de Auditoría</p>
             {menuItems.map(item => (
               <button
                 key={item.id}

@@ -1,33 +1,23 @@
-export const ROJO_MARCA = "#F40009";
+export const ROJO_MARCA = "#DC2626";
 
 // Estructura de ejemplo: áreas de proceso y formatos de registro a auditar.
 export const ESTRUCTURA_FORMATOS = {
-  "TRATAMIENTO DE AGUAS": [
-    "Formato A - Monitoreo de tratamiento de aguas",
-    "Formato B - Análisis fisicoquímico de agua",
-    "Formato C - Sistema de enfriamiento"
+  "RECEPCIÓN DE MATERIA PRIMA": [
+    "Formato A - Inspección de recepción",
+    "Formato B - Control de proveedores"
   ],
-  "JARABES": [
-    "Formato A - Filtración",
-    "Formato B - Jarabe terminado",
-    "Formato C - Lavado de tanques"
-  ],
-  "LAVADO DE ENVASE": [
-    "Formato A - Línea 1 - Lavado de envase",
-    "Formato A - Línea 2 - Lavado de envase"
-  ],
-  "LLENADO": [
+  "PRODUCCIÓN": [
     "Formato A - Línea 1 - Monitoreo y control",
-    "Formato B - Línea 1 - Inspectores electrónicos",
+    "Formato B - Línea 2 - Monitoreo y control",
     "Formato C - Empaque y cierre"
   ],
-  "MICROBIOLOGÍA": [
-    "Formato A - Micro de procesos",
+  "CONTROL DE CALIDAD": [
+    "Formato A - Análisis de proceso",
     "Formato B - Producto terminado"
   ],
   "LIMPIEZA Y SANEAMIENTO": [
     "Formato A - Matriz de limpieza y saneamiento",
-    "Formato B - CIP"
+    "Formato B - Registro de verificación"
   ]
 };
 

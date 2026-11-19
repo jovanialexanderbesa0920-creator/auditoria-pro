@@ -1,7 +1,7 @@
 @import "tailwindcss";
 
 @theme {
-  --color-red-600: #F40009;
+  --color-red-600: #DC2626;
   --color-slate-950: #07080b;
   --font-inter: "Inter", sans-serif;
 }
@@ -10,7 +10,7 @@
   --foreground-rgb: 255, 255, 255;
   --background-start-rgb: 7, 8, 11;
   --background-end-rgb: 0, 0, 0;
-  --brand-red: #F40009;
+  --brand-red: #DC2626;
 }
 
 body {

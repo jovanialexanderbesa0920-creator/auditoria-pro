@@ -149,9 +149,9 @@ const Consolidated = () => {
                  {loading ? <div className="text-center py-20 animate-pulse text-[10px] font-black uppercase italic">Extrayendo Datos de la Nube...</div> : monthlyData.length > 0 ? (
                     <ResponsiveContainer width="100%" height={300}>
                       <AreaChart data={monthlyData} margin={{ top: 20, right: 30, left: -20, bottom: 0 }}>
-                        <defs><linearGradient id="colG" x1="0" y1="0" x2="0" y2="1"><stop offset="5%" stopColor="#F40009" stopOpacity={0.3}/><stop offset="95%" stopColor="#F40009" stopOpacity={0}/></linearGradient></defs>
+                        <defs><linearGradient id="colG" x1="0" y1="0" x2="0" y2="1"><stop offset="5%" stopColor="#DC2626" stopOpacity={0.3}/><stop offset="95%" stopColor="#DC2626" stopOpacity={0}/></linearGradient></defs>
                         <XAxis dataKey="day" stroke="#475569" fontSize={8} tickLine={false} axisLine={false} /><YAxis stroke="#475569" fontSize={8} tickLine={false} axisLine={false} domain={[0, 100]} /><Tooltip contentStyle={{ background: '#000', border: 'none', borderRadius: '12px', fontSize: '10px' }} />
-                        <Area type="monotone" dataKey="compliance" name="%" stroke="#F40009" strokeWidth={5} fillOpacity={1} fill="url(#colG)" /><Legend align="right" verticalAlign="top" iconType="circle" wrapperStyle={{ fontSize: '9px', fontWeight: 'bold' }} />
+                        <Area type="monotone" dataKey="compliance" name="%" stroke="#DC2626" strokeWidth={5} fillOpacity={1} fill="url(#colG)" /><Legend align="right" verticalAlign="top" iconType="circle" wrapperStyle={{ fontSize: '9px', fontWeight: 'bold' }} />
                       </AreaChart>
                     </ResponsiveContainer>
                  ) : <div className="flex flex-col items-center justify-center h-[300px] opacity-10"><BarChart3 size={60} className="mb-4" /><p className="text-xl font-black italic tracking-widest">NO DATA IN CLOUD</p></div>}

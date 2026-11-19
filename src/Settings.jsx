@@ -103,7 +103,7 @@ const Settings = () => {
       const csvContent = "data:text/csv;charset=utf-16," + [headers, ...rows].map(e => e.join(",")).join("\n");
       const link = document.createElement("a");
       link.setAttribute("href", encodeURI(csvContent));
-      link.setAttribute("download", `Reporte_Global_PlantaBOG_${new Date().toLocaleDateString()}.csv`);
+      link.setAttribute("download", `Reporte_Global_${new Date().toLocaleDateString()}.csv`);
       link.click();
       alert("¡Reporte Excel (Global) generado!");
     } catch (e) {

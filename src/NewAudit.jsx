@@ -70,7 +70,7 @@ const NewAudit = ({ onCancel, onSaveComplete }) => {
   const getComplianceBorderColor = (comp) => {
     if (comp >= 90) return '#10b981';
     if (comp >= 70) return '#eab308';
-    return '#F40009';
+    return '#DC2626';
   };
 
   const addQuickFinding = (text) => setFindings(prev => prev ? `${prev}\n- ${text}` : `- ${text}`);
